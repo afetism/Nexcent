@@ -1,0 +1,251 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color:rgba(245, 247, 250, 1) ;
+    overflow-x: hidden;
+}
+
+.headSection
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--neutral-white);
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.logo
+{
+    display: flex;
+    width:154.49px;
+    height: 24px;
+   
+
+    gap: 8px;
+ 
+    background-color: transparent;
+
+}
+.logo img{
+    width: 35px;
+    height: 24px;
+}
+.logo h1{
+   
+ height:20.66px ;
+ font-weight: bold;
+ font-family: sans-serif;
+ font-size:x-large;
+ width: 111.49px;
+
+}
+.navList
+{
+    background-color: transparent;
+    width: 588px;
+    height: 24px;
+ 
+
+}
+.navList ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    border: 0px;
+    
+}
+.navList ul a{
+    text-decoration: none;
+    color: black;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.loginBtns
+{
+
+    display: flex;
+    gap: 10px;
+    background-color: rgba(245, 247, 250, 1);
+}
+
+.loginBtns button
+{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    }
+.login {
+        background-color:   #28a745;
+        color:rgba(245, 247, 250, 1);
+    }
+    
+.signup {
+        background-color:rgba(245, 247, 250, 1);
+        color:   #28a745;
+    }
+    
+.btn:hover {
+        opacity: 0.8;
+ }
+main{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+ }
+.mainly
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+    background: rgba(245, 247, 250, 1);
+}
+
+.hero-section
+{
+    background-color:transparent ;
+    display: flex;
+    padding: 6rem 0;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10.5rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.Frame-1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.39213rem;
+  
+    flex-wrap: wrap
+}
+.Frame-1 .text-1 {
+    color: rgba(77, 77, 77, 1);
+    font-family: Inter;
+    font-size: 2.78425rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.30631rem;
+}
+.Frame-1 .text-1 span {
+    color: green;
+}
+.Frame-1 text-2
+{
+    color: #717171;
+    font-family: Inter;
+    font-size: 0.69606rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.04413rem;
+}
+.Frame-1 .frame-1-button
+{
+    display: flex;
+    padding: 0.60906rem 1.39213rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.43506rem;
+    border-radius: 0.2rem;
+    border: none;
+    background-color: green;
+    color: white;
+}
+.Illustration img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.clients
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    background: white;  
+    width: 100%;
+    padding: 10px;
+}
+.our-clients
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem
+}
+.our-clients h2{
+    color:  #4d4d4d;
+    text-align: center;
+    font-family: Inter;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.75rem;
+}
+
+.achievements
+{
+    display: flex;
+    background-color: rgba(245, 247, 250, 1);
+    justify-content: space-around;
+    width: 100%;
+    padding: 6rem 0;
+}
+
